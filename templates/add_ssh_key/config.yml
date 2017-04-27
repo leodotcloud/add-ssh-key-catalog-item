@@ -1,0 +1,5 @@
+name: SSH Key Adder
+description: |
+  Deploy this catalog item to add your SSH key to all the hosts.
+version: v0.1
+category: Utility

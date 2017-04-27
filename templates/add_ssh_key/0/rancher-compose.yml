@@ -1,0 +1,12 @@
+.catalog:
+  version: v0.1
+  questions:
+    - variable: "SSH_KEY_TO_ADD"
+      label: "SSH Key to add"
+      description: "Please specify the Public SSH Key to be added"
+      type: "string"
+    - variable: "USER_HOME"
+      label: "User home folder"
+      description: "Please specify the user's home folder"
+      type: "string"
+      default: "/root"

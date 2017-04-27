@@ -1,0 +1,9 @@
+sshkeyadder:
+    image: leodotcloud/add-ssh-key:dev
+    volumes:
+        - ${USER_HOME}:/tmp/user
+    environment:
+        SSH_KEY_TO_ADD: '${SSH_KEY_TO_ADD}'
+    labels:
+        io.rancher.scheduler.global: 'true'
+        io.rancher.container.start_once: 'true'
